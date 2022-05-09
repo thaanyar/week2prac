@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">week2prac</string>
+    <string name="follow">Follow</string>
+    <string name="message">MESSAGE</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_duis_vitae_auctor_tellus_morbi_ut_lectus_fringilla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae auctor tellus. Morbi ut lectus fringilla,</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
