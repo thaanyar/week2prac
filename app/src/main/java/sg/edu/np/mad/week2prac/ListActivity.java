@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -16,6 +18,12 @@ import java.util.Random;
 
 public class ListActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
+
+    String s1[], s2[];
+    int images[]={R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24,R.drawable.ic_baseline_android_24};
+
+
 
 
     @Override
@@ -23,8 +31,19 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+        recyclerView = findViewById(R.id.recyclerview);
+
+        s1 = getResources().getStringArray(R.array.usernames);
+        s2 = getResources().getStringArray(R.array.descriptions);
+
+        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter( this, s1,s2, images);
+        recyclerView.setAdapter(recyclerViewAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
         ImageView imageAlert = findViewById(R.id.imageView);
         imageAlert.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder imagePopup = new AlertDialog.Builder(ListActivity.this);
