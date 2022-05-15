@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/groupOne"
         android:layout_width="380dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/purple_200"
         android:text="Group 1 "
         android:textColor="@color/white"
@@ -27,7 +27,7 @@
     <Button
         android:id="@+id/groupTwo"
         android:layout_width="380dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/black"
         android:text="Group 2 "
         android:textColor="#ffff"

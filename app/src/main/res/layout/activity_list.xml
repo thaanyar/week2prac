@@ -6,19 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ListActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-
-        android:layout_width="128dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="380dp"
-        android:background="#03A9F4"
-        android:contentDescription="/@one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:ignore="ImageContrastCheck" />
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

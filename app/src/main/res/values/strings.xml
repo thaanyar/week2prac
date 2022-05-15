@@ -1,8 +1,59 @@
 <resources>
+    java.util.Random
     <string name="app_name">week2prac</string>
     <string name="follow">Follow</string>
     <string name="message">MESSAGE</string>
     <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_duis_vitae_auctor_tellus_morbi_ut_lectus_fringilla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae auctor tellus. Morbi ut lectus fringilla,</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="usernames">
+    <item name="Name123456789" type="string">Name123456789</item>
+    <item name="Name123456788" type="string">Name123456789</item>
+    <item name="Name123456777" type="string">Name123456789</item>
+    <item name="Name123456666" type="string">Name123456789</item>
+    <item name="Name123455555" type="string">Name123456789</item>
+    <item name="Name123444444" type="string">Name123456789</item>
+    <item name="Name123333333" type="string">Name123456789</item>
+    <item name="Name122222222" type="string">Name123456789</item>
+    <item name="Name868746992" type="string">Name123456789</item>
+    <item name="Name737493438" type="string">Name123456789</item>
+    <item name="Name386384934" type="string">Name123456789</item>
+    <item name="Name438763793" type="string">Name123456789</item>
+    <item name="Name373997939" type="string">Name123456789</item>
+    <item name="Name388839847" type="string">Name123456789</item>
+    <item name="Name347939974" type="string">Name123456789</item>
+    <item name="Name347834737" type="string">Name123456789</item>
+    <item name="Name777934322" type="string">Name123456789</item>
+    <item name="Name656354637" type="string">Name123456789</item>
+    <item name="Name397437948" type="string">Name123456789</item>
+    <item name="Name436477388" type="string">Name123456789</item>
+    <item name="Name274739942" type="string">Name123456789</item>
+    </string-array>
+
+    <string-array name="descriptions">
+    <item name="Description123456789" type="string">Name123456789</item>
+    <item name="Description123456788" type="string">Name123456789</item>
+    <item name="Description123456777" type="string">Name123456789</item>
+    <item name="Description123456666" type="string">Name123456789</item>
+    <item name="Description123455555" type="string">Name123456789</item>
+    <item name="Description123444444" type="string">Name123456789</item>
+    <item name="Description123333333" type="string">Name123456789</item>
+    <item name="Description122222222" type="string">Name123456789</item>
+    <item name="Description868746992" type="string">Name123456789</item>
+    <item name="Description737493438" type="string">Name123456789</item>
+    <item name="Description386384934" type="string">Name123456789</item>
+    <item name="Description438763793" type="string">Name123456789</item>
+    <item name="Description373997939" type="string">Name123456789</item>
+    <item name="Description388839847" type="string">Name123456789</item>
+    <item name="Description347939974" type="string">Name123456789</item>
+    <item name="Description347834737" type="string">Name123456789</item>
+    <item name="Description777934322" type="string">Name123456789</item>
+    <item name="Description656354637" type="string">Name123456789</item>
+    <item name="Description397437948" type="string">Name123456789</item>
+    <item name="Description436477388" type="string">Name123456789</item>
+    <item name="Description274739942" type="string">Name123456789</item>
+    </string-array>
+
+
 </resources>
