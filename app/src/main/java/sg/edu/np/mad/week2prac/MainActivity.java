@@ -101,6 +101,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn = (Button)findViewById(R.id.button2);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MessageGroup.class));
+            }
+        });
+
 
 
     }
@@ -112,7 +121,15 @@ public class MainActivity extends AppCompatActivity {
     private void replaceFragement(Fragment Fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frameLayout,);
+        fragmentTransaction.replace(R.id.frameLayout,groupOnefrag);
+        fragmentTransaction.commit();
+
+    }
+
+    private void replaceFragement(Fragment Fragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.frameLayout,groupTwofrag );
         fragmentTransaction.commit();
 
     }
